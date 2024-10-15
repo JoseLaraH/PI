@@ -52,6 +52,6 @@ def square_number(number: int):
 def developer_stats(desarrollador: str):
     # Llamar a la función que calcula los ítems y el contenido gratis por año
     result = developer(desarrollador)
-    
+        
     # Convertir el DataFrame en un formato adecuado para devolverlo como JSON
     return result.to_dict(orient='records')
